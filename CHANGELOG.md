@@ -7,8 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased] - 2026.08.20
 ### CHANGED
 - Installed lucide-react package
-- Aligned title, *hamburger icon*, and "Menu" text. Goal was to have Bottom of title sit with "Menu", while 
+- Aligned title, *hamburger icon*, and "Menu" text. Goal was to have Bottom of title sit with "Menu", while
     *hamburger icon* was vertically centered with "Menu" text.
+- Added lucide-react svg for Hamburger, X, Sub-list toggles
 
 ## [Unreleased]
 
