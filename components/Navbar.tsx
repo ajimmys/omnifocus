@@ -1,5 +1,6 @@
 "use client"; // Required for state tracking and animations
 
+import { Menu } from "lucide-react"
 import { useState } from "react";
 import Link from "next/link";
 
@@ -35,13 +36,16 @@ export default function Navbar() {
                 <div className="flex items-end">
 
                     {/* Logo */}
-                    <div className="border text-2xl font-bold"><a href="/">Omnicoach</a></div>
+                    <div className="p-2 text-3xl font-bold">
+                        <a href="/">Omnicoach</a>
+                        </div>
                     
                     <button
                         onClick={() => setIsOpen(true)}
-                        className="border hover:bg-violet-100 hover:italic focus:outline-none gap-2 font-medium"
+                        className="p-1 m-1 inline-flex items-center gap-1 hover:text-violet-800 hover:italic focus:outline-none transition-colors"
                     >
-                        <span>☰ Menu</span>
+                        <Menu size={12} />
+                        <span> Menu</span>
                     </button>
 
                 </div>
