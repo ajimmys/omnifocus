@@ -42,7 +42,7 @@ export default function Navbar() {
                     
                     <button
                         onClick={() => setIsOpen(true)}
-                        className="p-1 m-1 inline-flex items-center gap-1 hover:text-violet-800 hover:italic focus:outline-none transition-colors"
+                        className="p-1 m-1 inline-flex items-center gap-1 hover:text-slate-900 hover:italic focus:outline-none transition-colors"
                     >
                         <Menu size={12} />
                         <span> Menu</span>
